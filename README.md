@@ -1,6 +1,6 @@
 ---
 page_type: sample
-description: "A minimal sample app that can be used to demonstrate deploying Flask apps to Azure App Service on Linux."
+description: "An app that sends notification as soon as there are any vaccine slots available, India only"
 languages:
 - python
 products:
