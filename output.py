@@ -6,7 +6,6 @@
 
 from flask import Flask, request
 from vaccine import show_availability
-import os
 
 
 app = Flask(__name__)
@@ -27,7 +26,7 @@ def hello():
             return '''
                     <html>
                         <body>
-                            <p> Please let this tab remain open </p>
+                            <p> Thanks. </p>
                             <p>You will receive an email when slot is available,  </p>
                             <p><a href="/">Click here to get new alerts</a>
                         </body>
@@ -53,8 +52,6 @@ def hello():
 
 
 if __name__ == "__main__":
-    z = os.system('tzutil /s "Indian Standard Time"')
-    print("IST TIME:" + str(z))
     app.run()
 
 

@@ -1,1 +1,5 @@
 Flask>=1.0,<=1.1.2
+requests == 2.25.1
+datetime == 4.3
+python-dateutil == 2.8.1
+psycopg2  >= 2.8.6
