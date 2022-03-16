@@ -138,12 +138,12 @@ def run_first(choice, district_id, state_id, to_email, headers, payload):
                         
                         
 def put_in_db(state,district,choice,email):
-    dbname='postgres'
-    user='shivam@cowindb'
-    host='cowindb.postgres.database.azure.com'
-    password='FX8qxD@1'
-    port='5432' 
-    sslmode='require'
+    dbname=''
+    user=''
+    host=''
+    password=''
+    port='' 
+    sslmode=''
 
     # Construct connection string
     conn_string = "host={0} user={1} dbname={2} password={3} sslmode={4}".format(host, user, dbname, password, sslmode)
